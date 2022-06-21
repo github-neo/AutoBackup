@@ -1,10 +1,10 @@
 # AutoBackup
 AutoBackup scripts for Windows
 
-AutoBackup将使用7-Zip把指定的文件夹或文件压缩打包，生成的压缩包将会放在AutoBackup\backups文件夹中。
+AutoBackup可以自动化、批量地把指定的文件夹或文件压缩打包，生成的压缩包将会放在AutoBackup\backups文件夹中。
 
 ## 使用前需准备：
-1. 系统中需预先安装好7-Zip软件。7-Zip官网：https://www.7-zip.org/
+1. 系统中需预先安装好7-Zip软件。AutoBackup可以自动化需要使用7-Zip来打包。7-Zip官网：https://www.7-zip.org/
 1. 编辑AutoBackup.cmd文件，检查下列变量并设置正确的值：
 	- EXE_CMD_PATH: 系统中7-Zip软件的安装目录下7z.exe的绝对路径。
 1. 编辑BackupList.properties文件，自定义要备份的源路径。每行一个路径。可用井号#注释。
