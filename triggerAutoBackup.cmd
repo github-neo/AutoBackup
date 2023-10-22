@@ -1,7 +1,5 @@
 @echo off
 
-chcp 65001
-
 echo.
 choice /C YN /D N /T 10 /M "Do you want to shutdown computer after AutoBackup? Y or N? (Default N after 10s)"
 if errorlevel 2 goto body
